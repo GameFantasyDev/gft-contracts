@@ -27,7 +27,7 @@ contract GFT is DSToken("GFT", "Game Fantasy Token"), IERC223, ISmartToken {
     constructor() public {
         _controller = msg.sender;
         uint256 perCoin = 1e18;
-        _cap = perCoin.mul(1000 * 10000);
+        _cap = perCoin.mul(3000 * 10000);
     }
 
     //////////
